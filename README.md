@@ -5,7 +5,7 @@
 #### If you couldn't find the Stellaris ICDL in the project options. You can download it from this link [UVISION: Stellaris ICDI Debug Adapter Support](https://developer.arm.com/documentation/ka002280/latest)
 #### Also you need to download [PuTTY](https://www.putty.org/) to use it as a serial monitor.   
 ![image](https://user-images.githubusercontent.com/74486351/167730569-672772a8-c6ed-44be-b7b4-5dff63a0f263.png)
-####Make the configurations like this
+##### Make the configurations like this
 ![image](https://user-images.githubusercontent.com/74486351/167730750-f2039663-a5aa-463b-ada8-3d9d732242ba.png)
-####Check the device manager to know which port you are using.
-####You can also download the TivaC drivers from [here](https://www.ti.com/tool/SW-TM4C#downloads) if you don't have them.
+##### Check the device manager to know which port you are using.
+#### You can also download the TivaC drivers from [here](https://www.ti.com/tool/SW-TM4C#downloads) if you don't have them.
