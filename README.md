@@ -4,7 +4,7 @@
 #### If you couldn't find the Stellaris ICDI in the project options. You can download it from this link [UVISION: Stellaris ICDI Debug Adapter Support](https://developer.arm.com/documentation/ka002280/latest)
 
 #### You must have a serial monitor program like that one in [Arduino IDE](https://www.arduino.cc/en/main/OldSoftwareReleases) (I prefer old releases for myself)
-![image](https://user-images.githubusercontent.com/74486351/167746776-791344f9-8032-45e4-af34-ab987cc80fb2.png)
+![image](https://user-images.githubusercontent.com/74486351/167854385-6c0eec3c-9284-49ae-9f40-0529e7a4be30.png)
 
 #### Also you can download [PuTTY](https://www.putty.org/) to use it as a serial monitor. 
 ##### Make the configurations like this
