@@ -5,7 +5,7 @@
 int main()
 {			volatile char ch;	
 			SysTick_Init();
-			UART_Init(); //Use UART1 (C4=RX,C5=TX)ADC0_ACTSS_R
+			UART_Init(); //Use UART0 (A0=RX, A1=TX)ADC0_ACTSS_R
 			SysTick_Wait1us(500);
 			UART_OutString("Embedded Systems bonus assignment is done!!\n");
 			UART_OutString("Student name: Ahmed Shafeek Shafeek\n");
