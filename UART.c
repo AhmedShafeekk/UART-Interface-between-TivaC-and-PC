@@ -11,8 +11,8 @@ void UART_Init(void)
 
 		UART0_CTL_R =0; //disable UART
 		UART0_CC_R = 0;
-		UART0_IBRD_R = 104; //(int)clk /(16*clkDivisor); //9600 baud rate  Integer = 104 may be 520
-		UART0_FBRD_R =  11; //(int)(((double)(clkDivisor)-(int)(clkDivisor))*((double)(64))+0.5); //9600 baud rate  fraction = 11 may be 53
+		UART0_IBRD_R = 520; //(int)clk /(16*clkDivisor); //9600 baud rate  Integer = 104 may be 520
+		UART0_FBRD_R =  53; //(int)(((double)(clkDivisor)-(int)(clkDivisor))*((double)(64))+0.5); //9600 baud rate  fraction = 11 may be 53
 		UART0_LCRH_R = EightBits; //8bit no parity one stop 
 		UART0_CTL_R |= UARTEN|TXE|RXE;//enable UART
 			
