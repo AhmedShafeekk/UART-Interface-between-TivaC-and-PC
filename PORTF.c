@@ -22,5 +22,9 @@ void PORTF_DigitalWrite(LED led,STATE state)
 
 void All_LEDS_OFF(void)
 {
-		GPIO_PORTF_DATA_R &=~red|green|blue;
+		GPIO_PORTF_DATA_R &=~(red|green|blue);
+}
+int isAll_LedsOFF(void)
+{
+		return GPIO_PORTF_DATA_R &(red|green|blue);
 }

@@ -10,4 +10,5 @@ typedef enum {LOW,HIGH} STATE;
 void PORTF_Init(void);
 void PORTF_DigitalWrite(LED,STATE);
 void All_LEDS_OFF(void);
+int isAll_LedsOFF(void);
 #endif
