@@ -3,7 +3,8 @@
 #include "PORTF.h"
 
 int main()
-{			volatile char ch;	
+{			volatile char ch;
+ 			PLL_Init();
 			SysTick_Init();
 			UART_Init(); //Use UART0 (A0=RX, A1=TX)ADC0_ACTSS_R
 			SysTick_Wait1us(500);
