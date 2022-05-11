@@ -34,6 +34,9 @@ int main()
 				All_LEDS_OFF();
 				PORTF_DigitalWrite(green,HIGH);
 				break;
+			default:
+				All_LEDS_OFF();
+				break;
 		}
 	}
 				
