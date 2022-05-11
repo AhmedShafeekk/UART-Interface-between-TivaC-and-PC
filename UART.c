@@ -7,7 +7,7 @@ void UART_Init(void)
 		SYSCTL_RCGCGPIO_R |= 0x1; //activate port A
 		while ((SYSCTL_PRGPIO_R&0x1)==0){}
 		GPIO_PORTA_LOCK_R = GPIO_LOCK_KEY;
-		GPIO_PORTA_CR_R |= 1U<<4 | 1U<<5;
+		GPIO_PORTA_CR_R |= 1U<<1 | 1U<<0;
 
 		UART0_CTL_R =0; //disable UART
 		UART0_CC_R = 0;
