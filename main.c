@@ -23,7 +23,6 @@ int main()
 		{
 				UART_OutString("Please enter ('r' or 'b' or 'g') without quotes\nInput:   ");
 				UART_OutChar(ch);
-				//UART_OutChar('\n');
 		}
 		
 		switch (ch)
