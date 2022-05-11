@@ -12,7 +12,7 @@
 #define RXE 1U<<9 //Enable RX  
 #define TXE 1U<<8 //Enable TX
 #define EightBits 3U<<5 //8-bits, No parrity, 1 stop, FF disable
-#define clk 16e6 
+#define clk 80e6 
 #define clkDivisor 9600 
 
 void UART_Init(void);
