@@ -10,7 +10,7 @@ int main()
 			SysTick_Wait1us(500);
 			UART_OutString("Embedded Systems bonus assignment is done!!\n");
 			UART_OutString("Student name: Ahmed Shafeek Shafeek\n");
-			UART_OutString("ID: 1900112\n");
+			UART_OutString("ID: 	\n");
 			UART_OutString("Please enter ('r' or 'b' or 'g') without quotes\nInput:   ");
 	
 			PORTF_Init();
